@@ -1,0 +1,69 @@
+:root{
+  --main-font-family: 'Lato', sans-serif;
+}
+
+.App{
+  font-family: var(--main-font-family);
+  display: flex;
+  gap: 20px;
+  height:100vh;
+  background-color: #282A37;
+}
+
+.title{
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h6{
+  color: #fff;
+}
+
+.uname, 
+.pass {
+  height: 25px;
+  background-color: rgba(50, 54, 69, 0.6);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+ .button {
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #2990F4;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+} 
+
+label{
+  color: #fff;
+  font-weight: 700; 
+  margin-right: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-form{
+  padding: 10rem 30rem 10rem 5rem;
+}
+
+
+.error {
+  color: #c44536;
+  font-size: 12px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
