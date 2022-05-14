@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import photo from './ivana-cajina-83Wwt2qT_JY-unsplash.jpg';
 import './App.css';
 
 function App() {
@@ -53,8 +54,7 @@ function App() {
 
 
     //generate JSX code for error message
-    const handleErrorMessages = (name) => 
-    name === errorMessages.name && (
+    const handleErrorMessage = (name) => name === errorMessages.name && (
       <div className="error">{errorMessages.message}</div>
     ); 
 
@@ -65,13 +65,13 @@ function App() {
         <form onSubmit={handleSubmit}>
           <div className='user-input-container'>
             <label>Username</label>
-            <input type='text' className='uname mb-5' required />
-            {handleErrorMessages('uname')}
+            <input type='text' name='uname' className='uname mb-5' required />
+            {handleErrorMessage('uname')}
           </div>
           <div className='password-input-container'>
             <label>Password</label>
-            <input type='password' className='pass mb-3' required/>
-            {handleErrorMessages('pass')}
+            <input type='password' name='pass' className='pass mb-3' required/>
+            {handleErrorMessage('pass')}
           </div>
           <div className='button-container'>
             <input type='submit' className='button'/>
@@ -82,12 +82,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className='app-bg' style={{"--img": "url('https://images.unsplash.com/photo-1595287998909-745f8f4b2dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}} >
       <header className='App-header'>
       </header>
       <div className='sign-in-form'>
         <div className='title'>Log in to your account</div>
         <h6>Not a member?  <a href='/'>Sign up</a></h6>
-        {isSubmitted ? <div>User is sucessfully logged in</div> : renderForm}
+        {isSubmitted ? <h2>User is sucessfully logged in</h2> : renderForm}
+      </div>
       </div>
     </div>
   );
