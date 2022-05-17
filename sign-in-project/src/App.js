@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import photo from './ivana-cajina-83Wwt2qT_JY-unsplash.jpg';
 import './App.css';
 
 function App() {
@@ -82,16 +81,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className='app-bg' style={{"--img": "url('https://images.unsplash.com/photo-1595287998909-745f8f4b2dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}} >
       <header className='App-header'>
       </header>
+      <div className='app-bg' style={{"--img": "url('https://images.unsplash.com/photo-1595287998909-745f8f4b2dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}} >
       <div className='sign-in-form'>
         <div className='title'>Log in to your account</div>
         <h6>Not a member?  <a href='/'>Sign up</a></h6>
         {isSubmitted ? <h2>User is sucessfully logged in</h2> : renderForm}
       </div>
       </div>
-    </div>
+      </div>
   );
 }
 
