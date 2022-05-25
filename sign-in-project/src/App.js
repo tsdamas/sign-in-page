@@ -85,6 +85,11 @@ function App() {
       </header>
       <div className='app-bg container-fluid' style={{"--img": "url('https://images.unsplash.com/photo-1595287998909-745f8f4b2dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}} >
       <div className='nav'>
+        <div className='container-fluid'>
+          <a className='navbar-brand' href='/'>C<div className='tringle'></div>mping app<span className='nav-dot'>.</span></a>
+          <a className='navbar-home' href='/'>Home</a>
+          <a className='navbar-join' href='/'>Join</a>
+        </div>
       </div>
       <div className='sign-in-form'>
         <div className='title'>Log in to your account<span className='dot'>.</span></div>
