@@ -64,12 +64,12 @@ function App() {
         <form onSubmit={handleSubmit}>
           <div className='user-input-container'>
             <label>Username</label>
-            <input type='text' name='uname' className='uname mb-5' required />
+            <input type='text' name='uname' className='uname' required />
             {handleErrorMessage('uname')}
           </div>
           <div className='password-input-container'>
             <label>Password</label>
-            <input type='password' name='pass' className='pass mb-3' required/>
+            <input type='password' name='pass' className='pass' required/>
             {handleErrorMessage('pass')}
           </div>
           <div className='button-container'>
@@ -86,14 +86,14 @@ function App() {
       <div className='app-bg container-fluid' style={{"--img": "url('https://images.unsplash.com/photo-1595287998909-745f8f4b2dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"}} >
       <div className='nav'>
         <div className='container-fluid'>
-          <a className='navbar-brand' href='/'>C<div className='tringle'></div>mping app<span className='nav-dot'>.</span></a>
-          <a className='navbar-home' href='/'>Home</a>
-          <a className='navbar-join' href='/'>Join</a>
+          <a className='navbar-brand' href='/'>C<div className='tringle'></div>mping Match<span className='nav-dot'>.</span></a>
+          <a className='navbar-home hidden-sm' href='/'>Home</a>
+          <a className='navbar-join hidden-sm' href='/'>Sign up</a>
         </div>
       </div>
       <div className='sign-in-form'>
-        <div className='title'>Log in to your account<span className='dot'>.</span></div>
-        <h6>Not a member?  <a href='/'>Sign up</a></h6>
+        <div className='title'>Welcome back<span className='dot'>!</span></div>
+        <h6>Sign in to your account to continue.</h6>
         {isSubmitted ? <h2>User is sucessfully logged in<span className='dot'>.</span></h2> : renderForm}
       </div>
       </div>
