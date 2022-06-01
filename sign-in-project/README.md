@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Camping Match Sign in page
+This is client-side a log in page. 
+
+## Description
+Welcome to Camping Match log in page. The overall idea was to build a program that similutes a log in page from a website only using the client side. My next goal for this project is to build the back end side of the application. Here you can log in using user1 and pass1 or user2 and pass2. If sucessfully loged in it will display a message to the user. This was my project to practice ECMAScript6. 
+
+## Contribution Guidelines
+
+Instructions Fork this Repository Clone your forked repository Add your scripts Commit & Push Create a pull request Star this repository Wait for Pull Request to merge Celebrate, your first step into the open Source World and contribute more
+
+Note: When you Add a project Add it to the README for ease of finding it Note: Please do not put the project link to reference your local forked repo. Always link it to this repo after it's been merged with main.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +80,45 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+## Built with 
+
+- React;
+- Javascript;
+- HTML; 
+- CSS; 
+
+## Links 
+
+- [Repo] (https://github.com/tsdamas/sign-in-page "<sign-in-page> Repo")
+
+- [Live] ("Live view") 
+
+- [Bugs] (https://github.com/tsdamas/sign-in-page/issues "Issues pages")
+
+## Screenshots
+
+![Sign in Page]("public/sign-in-page-screenshot" "Sign in Page")
+
+## Future Updates
+
+- [ ] Tests
+- [ ] Build the back-side
+
+## Author
+
+**Thais Damasceno**
+
+- [Profile](https://github.com/tsdamas "Thais Damasceno")
+- [Email](mailto:tssdamasceno@gmail.com?subject=Hi "Hi!")
+- [Website](https://stoic-mclean-831fce.netlify.app "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
