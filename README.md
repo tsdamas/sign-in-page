@@ -1,7 +1,7 @@
 # Camping Match Sign in page
 This is the client-side of a log in page. 
 
-![Alt text](https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")
+![Login Page](https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")
 
 ## Description
 Welcome to Camping Match log in page. The overall idea was to build a program that similutes a login page from a website only using the client side. My next goal for this project is to build the back end side of the application. Here you can log in using user1 and pass1 or user2 and pass2. If sucessfully loged in it will display a message to the user. This was my project to practice ECMAScript6. 
@@ -104,7 +104,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Screenshots
 
-![Sign in Page]("https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")
+![Login Page](https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")
 
 ## Future Updates
 
