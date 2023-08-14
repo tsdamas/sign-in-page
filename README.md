@@ -1,14 +1,14 @@
 # Camping Match Sign in page
-This is client-side a log in page. 
+This is the client-side of a log in page. 
 
 ![Alt text](https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")
 
 ## Description
-Welcome to Camping Match log in page. The overall idea was to build a program that similutes a log in page from a website only using the client side. My next goal for this project is to build the back end side of the application. Here you can log in using user1 and pass1 or user2 and pass2. If sucessfully loged in it will display a message to the user. This was my project to practice ECMAScript6. 
+Welcome to Camping Match log in page. The overall idea was to build a program that similutes a login page from a website only using the client side. My next goal for this project is to build the back end side of the application. Here you can log in using user1 and pass1 or user2 and pass2. If sucessfully loged in it will display a message to the user. This was my project to practice ECMAScript6. 
 
 ## Contribution Guidelines
 
-Instructions Fork this Repository Clone your forked repository Add your scripts Commit & Push Create a pull request Star this repository Wait for Pull Request to merge Celebrate, your first step into the open Source World and contribute more
+Instructions Fork this Repository Clone your forked repository. Add your scripts Commit & Push Create a pull request Star this repository Wait for Pull Request to merge, Celebrate, your first step into the open Source World and contribute more
 
 Note: When you Add a project Add it to the README for ease of finding it Note: Please do not put the project link to reference your local forked repo. Always link it to this repo after it's been merged with main.
 
