@@ -104,7 +104,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Screenshots
 
-![Sign in Page]("public/sign-in-page-screenshot" "Sign in Page")
+![Sign in Page]("[public/sign-in-page-screenshot](https://github.com/tsdamas/sign-in-page/blob/main/sign-in-project/public/sign-in-page-screenshot.png?raw=true "Authentication page")" "Sign in Page")
 
 ## Future Updates
 
